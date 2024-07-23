@@ -90,6 +90,7 @@ sayi**=1;
 console.log(sayi); //cikti : 1
 
 
+
 //MANTIKSAL OPERATORLER
 
 /**
@@ -109,5 +110,28 @@ console.log( !(5>3) ); // ! => bir şeyin tersini alır
 console.log((para>3000 && hakSayisi>1) || (yas>18 && saglikliMi));
 
 
+
+
+//KARSILASTIRMA OPERATORLERI
+
+/**
+ * != : esit degil mi
+ * > : buyuk mu
+ * < : kucuk mu
+ * >= : buyuk esit mi
+ * <= : kucuk esit mi
+ */
+
+console.log(5!=3); // cikti: true
+
+let yas=23;
+console.log(yas!=23); //cikti: false
+
+console.log(15>12); //cikti: true
+
+console.log(11<12); //cikti: true
+
+console.log(12<=12); //cikti: true
+console.log(13>=10); //cikti: true
 
 
