@@ -90,4 +90,24 @@ sayi**=1;
 console.log(sayi); //cikti : 1
 
 
+//MANTIKSAL OPERATORLER
+
+/**
+ * && : ve (kosulların hepsi dogru iken dogrudur, diger durumlarda yanlistir)
+ * || : veya (kosullardan sadece biri dogru oldugunda dogru, sadece kosulların tamamı yanlıs oldugunda yanlıstır)
+ * ! : degil (true != false , false != true)
+ */
+
+let yas = 20;
+let para = 3500;
+let saglikliMi = false;
+let hakSayisi=3;
+
+console.log(yas>18 && para>3000 && saglikliMi==true); //cikti : false
+console.log(yas>18 && para>3000 || saglikliMi==true); //cikti : true
+console.log( !(5>3) ); // ! => bir şeyin tersini alır
+console.log((para>3000 && hakSayisi>1) || (yas>18 && saglikliMi));
+
+
+
 
